@@ -1,0 +1,5 @@
+,accuracy,balanced_accuracy,f1_macro
+Logistic Regression,0.5612,0.5751,0.5282
+SVM (RBF kernel),0.5816,0.5929,0.5444
+Random Forest,0.6216,0.6413,0.5946
+Boosting (HistGradientBoosting),0.6378,0.641,0.6229
