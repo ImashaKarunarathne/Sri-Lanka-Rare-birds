@@ -1,0 +1,11 @@
+,accuracy,balanced_accuracy,f1_macro
+Voting (top-2: Random Forest + Bagging),0.7481,0.7964,0.7792
+Random Forest,0.7473,0.7998,0.7781
+Voting (RF + HistGB + XGBoost),0.7452,0.8006,0.7779
+Bagging,0.7465,0.7913,0.7764
+XGBoost,0.7415,0.7981,0.7756
+Gradient Boosting,0.7435,0.7989,0.775
+HistGradientBoosting,0.7377,0.795,0.7707
+"SVM (RBF, tuned)",0.7161,0.7782,0.7479
+Logistic Regression (tuned),0.6682,0.7439,0.7028
+AdaBoost,0.6607,0.7428,0.6964
