@@ -1,8 +1,9 @@
 ,accuracy,balanced_accuracy,f1_macro
+Voting (Random Forest + Bagging),0.7136,0.764,0.7292
 Bagging,0.714,0.7572,0.7276
 Random Forest,0.7115,0.7669,0.7269
-Voting Ensemble (RF + HistGB + XGBoost),0.7073,0.7622,0.7241
-Stacking Ensemble (RF + HistGB + XGBoost -> LogReg),0.7044,0.7643,0.7231
+Voting (RF + HistGB + XGBoost),0.7073,0.7622,0.7241
+Stacking (RF + HistGB + XGBoost -> LogReg),0.7044,0.7643,0.7231
 HistGradientBoosting,0.7057,0.763,0.7229
 XGBoost,0.7061,0.758,0.7214
 Gradient Boosting,0.7048,0.758,0.7205
