@@ -1,0 +1,14 @@
+,accuracy,balanced_accuracy,f1_macro
+Bagging,0.9422,0.9422,0.9421
+Voting (top-2: Bagging + HistGradientBoosting),0.9422,0.9422,0.942
+HistGradientBoosting,0.9422,0.9422,0.942
+XGBoost,0.9412,0.9412,0.941
+CatBoost,0.9402,0.9402,0.9401
+Voting (RF + HistGB + XGBoost),0.9402,0.9402,0.9401
+Gradient Boosting,0.9382,0.9382,0.9381
+Stacking (Bagging + HistGB + XGBoost -> LogReg),0.9373,0.9373,0.9372
+Random Forest,0.9363,0.9363,0.9362
+AdaBoost,0.9353,0.9353,0.9352
+"Stacking (Bagging + HistGradientBoosting + XGBoost -> HistGB, passthrough)",0.9333,0.9333,0.9333
+"SVM (RBF, tuned)",0.9333,0.9333,0.9332
+Logistic Regression (tuned),0.9255,0.9255,0.9254
