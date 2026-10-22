@@ -112,7 +112,7 @@ if submitted:
 
     st.success(f"Predicted habitat guild: **{pred}**")
     st.bar_chart(proba_df.set_index("guild")["probability"])
-    st.dataframe(proba_df.reset_index(drop=True), use_container_width=True)
+    st.dataframe(proba_df.reset_index(drop=True), width="stretch")
 
 st.divider()
 st.caption(
